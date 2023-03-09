@@ -1,0 +1,58 @@
+* {
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+}
+
+
+
+section{
+   
+    height: 90vh;
+}
+section#hero img{
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    border-radius: 50%;
+    margin-left: 50px;
+    margin-top: 0px;
+
+    }
+
+ 
+
+.columnas{
+    display: flex; 
+    }
+    .columna1{
+     background-color: aquamarine;
+     padding: 15px;
+     margin: 0 10px;
+    }
+    
+    .columna2{
+        background-color: aquamarine;
+        padding: 15px;
+        margin: 0 10px;
+    }
+    header{
+        position: sticky;
+        top: 0%;
+        padding-top: 30px;
+        padding-bottom:  30px;
+        background-color: gray;
+    
+    }    
+    .hide { 
+      display: none;
+    }
+    .show {
+       display: block;
+    }
+ 
+
+
+
+
+
